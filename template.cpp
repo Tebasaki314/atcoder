@@ -3,13 +3,14 @@
 using namespace std;
 
 typedef long long ll;
+typedef pair<int, pair<int, int>> piii;
 //loop
-#define REP(i,n) for(ll i=0;i<(ll)(n);i++)
-#define REPD(i,n) for(ll i=n-1;i>=0;i--)
-#define FOR(i,a,b) for(ll i=a;i<=(ll)(b);i++)
-#define FORD(i,a,b) for(ll i=a;i>=(ll)(b);i--)
+#define REP(i, n) for (ll i = 0; i < (ll)(n); i++)
+#define REPD(i, n) for (ll i = n - 1; i >= 0; i--)
+#define FOR(i, a, b) for (ll i = a; i <= (ll)(b); i++)
+#define FORD(i, a, b) for (ll i = a; i >= (ll)(b); i--)
 //STL
-#define ALL(x) (x).begin(),(x).end()
+#define ALL(x) (x).begin(), (x).end()
 #define SIZE(x) ((ll)(x).size())
 #define MAX(x) *max_element(ALL(x))
 #define MIN(x) *min_element(ALL(x))
@@ -20,21 +21,24 @@ typedef long long ll;
 //acronym
 #define PB push_back //vectorヘの挿入
 #define MP make_pair //pairのコンストラクタ
-#define F first //pairの一つ目の要素
-#define S second //pairの二つ目の要素
+#define F first		 //pairの一つ目の要素
+#define S second	 //pairの二つ目の要素
 
 // vecからnumを見つける
-bool find(vector<int> vec, int num) {
-    auto itr = find(ALL(vec), num);
-    size_t index = distance(vec.begin(), itr);
-    return index != vec.size();
-} 
+bool find(vector<int> vec, int num)
+{
+	auto itr = find(ALL(vec), num);
+	size_t index = distance(vec.begin(), itr);
+	return index != vec.size();
+}
 
-void Main() {
+void Main()
+{
 	// coding here
 }
 
-int main() {
+int main()
+{
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);
 	Main();

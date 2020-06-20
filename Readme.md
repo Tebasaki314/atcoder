@@ -28,6 +28,6 @@ https://atcoder.jp/posts/20
 
 セキュリティの穴をつくコンテスト
 
-http://ksnctf.sweetduet.info/
-https://ctf.cpaw.site/
-http://ctf.nash-dev.com/entrance
+* http://ksnctf.sweetduet.info/
+* https://ctf.cpaw.site/
+* http://ctf.nash-dev.com/entrance
