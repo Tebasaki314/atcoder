@@ -4,8 +4,8 @@
 
 ### 競技プログラミング
 
-https://atcoder.jp/
-http://judge.u-aizu.ac.jp/onlinejudge/
+* https://atcoder.jp/
+* http://judge.u-aizu.ac.jp/onlinejudge/
 
 
 ### 便利なリンク集
